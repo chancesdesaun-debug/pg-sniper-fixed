@@ -163,7 +163,7 @@ def generate_and_check_links():
     with open('config.json', 'r') as config_pluh:
         config = json.load(config_pluh)
     
-        webhook_url = config['webhook']
+        webhook_url = config['https://discord.com/api/webhooks/1410187160174465165/sj7QxgFTKTJnzm-558EqaSvM8pshn2k_nu73wc42udQMaM-oFYSRItNTQCB1KIckcoxO']
         account_age = config['account_age (2005-2016)']
         itemId = config['ItemID']
         follower_limit = config['follower_limit']
@@ -281,3 +281,4 @@ def generate_and_check_links():
             print(f"[X] Failed to send webhook {random_number}")
 
 generate_and_check_links()
+
